@@ -3624,6 +3624,7 @@ void rc_hash_initialize_iterator(struct rc_hash_iterator* iterator, const char* 
           /* This should probably apply to more consoles in the future */
           /* Although in any case this just hashes the entire file */
           iterator->consoles[0] = RC_CONSOLE_NINTENDO_3DS;
+          iterator->consoles[1] = RC_CONSOLE_PLAYSTATION_2;
         }
         break;
 
